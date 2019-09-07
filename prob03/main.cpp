@@ -11,7 +11,7 @@ int main ()
       int height_inches;
 
       // Request the total height from user.
-      std::cout << "What is the persons height in inches: ";
+      std::cout << "What is the person\'s height in inches: ";
       std::cin >> height_inches_total;
 
       // Calculation of the height to feet/inches.
@@ -19,7 +19,7 @@ int main ()
       height_inches = height_inches_total % 12;
 
       // Display the height in feet inches.
-      std::cout << "\nThe person is " << height_feet << "\' " <<  height_inches << "\".\n";
+      std::cout << "\a\nThe person is " << height_feet << "\' " <<  height_inches << "\".\n";
 
   return 0;
   }
