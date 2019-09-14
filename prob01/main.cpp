@@ -52,4 +52,5 @@ int main()
   std::cout << "The variable \"amount\" is stored in " << sizeof(amount) << " bytes\n";
 
   return 0;
+  
 }
