@@ -15,7 +15,8 @@ int main()
   float area = height * width * 2;
   float gallons = area / coverage;
 
-    std::cout << "It will take " << gallons << " gallons of paint.\n";
+  // output of calculations
+  std::cout << "It will take " << gallons << " gallons of paint.\n";
 
   return 0;
 }
